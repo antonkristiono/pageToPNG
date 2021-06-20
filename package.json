@@ -1,0 +1,13 @@
+{
+  "name": "pageToPng",
+  "version": "1.0.0",
+  "description": "save page website to PNG",
+  "main": "index.js",
+  "repository": "https://github.com/antonkristiono/pageToPNG.git",
+  "author": "Anton Kristiono",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "puppeteer": "^10.0.0"
+  }
+}
