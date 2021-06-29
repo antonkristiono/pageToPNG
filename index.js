@@ -8,8 +8,8 @@ const Screenshot = async () => {
 
   
   await page.setViewport({
-    width: 1684,
-    height: 2384
+    width: 7016,
+    height: 9933
   })
 
   await page.screenshot({
