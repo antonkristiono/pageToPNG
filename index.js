@@ -1,5 +1,5 @@
 const puppeteer = require ('puppeteer');
-const url = "https://n-card.vercel.app/cetak/itsnu/front/guru";
+const url = "http://localhost:3000/cetak/nj/front";
 
 const Screenshot = async () => {
   const browser = await puppeteer.launch();
@@ -8,8 +8,9 @@ const Screenshot = async () => {
 
   
   await page.setViewport({
-    width: 7016,
-    height: 9933
+    width: 2000,
+    height: 5000,
+    deviceScaleFactor: 5
   })
 
   await page.screenshot({
