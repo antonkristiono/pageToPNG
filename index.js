@@ -10,7 +10,7 @@ const Screenshot = async () => {
   await page.setViewport({
     width: 2000,
     height: 5000,
-    deviceScaleFactor: 5
+    deviceScaleFactor: 3
   })
 
   await page.screenshot({
