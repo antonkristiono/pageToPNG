@@ -14,7 +14,7 @@ const Screenshot = async () => {
   })
 
   await page.screenshot({
-    path: "./hasil/screenshot.png",
+    path: "../cropperBulk/target/screenshot.png",
     fullPage: true
   });
   await page.close();
